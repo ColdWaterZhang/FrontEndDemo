@@ -1,0 +1,2 @@
+# FrontEndDemo
+因为本人手头有两台电脑，一台系统window，另一台系统linux。想在两台电脑上同时做前端的demo，而且进度也能够实时同步，所以就创建了这个repository
