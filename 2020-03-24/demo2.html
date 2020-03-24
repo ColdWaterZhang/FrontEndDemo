@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表格2-个人简历练习</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			text-align: center;
+		}
+		i {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<p>删去多余的行列，跨列合并单元格用td标签的colspan属性，跨行合并单元格用td标签的rowspan属性</p>
+	<table border="1">
+		<!-- <colgroup span="6" width="100px"> </colgroup>
+		     <colgroup span="1" width="200px"> </colgroup> 
+			一下设置单元格宽度的另一种方法
+		-->
+		<col width="100px">
+		<col width="100px">
+		<col width="100px">
+		<col width="100px">
+		<col width="100px">
+		<col width="100px">
+		<col width="200px">
+		<tr height="40px" >
+			<td colspan="7">个人简历<i>[colspan="7"]</i></td>
+		</tr>
+		<tr height="40px">
+			<td>姓名</td>
+			<td></td>
+			<td>性别</td>
+			<td></td>
+			<td>年龄</td>
+			<td></td>
+			<td rowspan="4">照片<br><i>[rowspan="4"]</i></td>
+		</tr>
+		<tr height="40px">
+			<td>学历</td>
+			<td></td>
+			<td>籍贯</td>
+			<td colspan="3"><i>[colspan="3"]</i></td>
+		</tr>
+		<tr height="40px">
+			<td>电话</td>
+			<td></td>
+			<td>政治面貌</td>
+			<td colspan="3"><i>[colspan="3"]</i></td>
+		</tr>
+		<tr height="40px">
+			<td>毕业院校</td>
+			<td colspan="5"><i>[colspan="5"]</i></td>
+		</tr>
+		<tr height="40px">
+			<td>求职意向</td>
+			<td colspan="6"><i>[colspan="6"]</i></td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录表单练习</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form action="www.baid.com">
+		<table width="600px" border="1">
+			<colgroup span="2" width="100px"></colgroup>
+			<colgroup span="1" width="300px"></colgroup>
+			<tr height="40px">
+				<td rowspan="4">总体信息</td>
+				<td colspan="2"></td>
+			</tr>
+			<tr height="40px">
+				<td align="right">用户名：</td>
+				<td align="left"><input type="text"></td>
+			</tr>
+			<tr height="40px">
+				<td align="right">密码：</td>
+				<td align="left"><input type="password"></td>
+			</tr>
+			<tr height="40px">
+				<td colspan="2">
+					<input type="submit" value="提交">
+					<input type="reset" value="重置">
+				</td>  
+			</tr>
+		</table>
+	</form>
+	<h1>总结：</h1>
+	<p>1、form必须有action属性，表示提交的地址</p>
+	<p>2、所有提交的数据，input必须要有name属性</p>
+	<p>3、input按钮的文字，使用value属性表示</p>
+	<p>4、input必须放在form标签内才能提交</p>
+	<p>5、input不同type属性对应的不同input标签</p>
+	<ul>
+		<li>type="text"→文本框</li>
+		<li>type="password"→密码输入框</li>
+		<li>type="radio"→单选框</li>
+		<li>type="checkbox"→复选框</li>
+		<li>type="button"→普通按钮</li>
+		<li>type="submit"→提交按钮</li>
+		<li>type="reset"→提交按钮</li>
+		<li>type="file"→文件选择框</li>
+		<li>......</li>
+	</ul>
+</body>
+</html>
