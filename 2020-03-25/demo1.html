@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>初接触样式表</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<form action="www.baid.com">
+		<table width="600px" border="1">
+			<colgroup span="2" width="100px"></colgroup>
+			<colgroup span="1" width="300px"></colgroup>
+			<tr height="40px">
+				<td rowspan="4" style="color: red">总体信息</td>
+				<td colspan="2"></td>
+			</tr>
+			<tr height="40px">
+				<td align="right">用户名：</td>
+				<td align="left"><input type="text"></td>
+			</tr>
+			<tr height="40px">
+				<td align="right">密码：</td>
+				<td align="left"><input type="password"></td>
+			</tr>
+			<tr height="40px">
+				<td colspan="2">
+					<input type="submit" value="提交" style="width: 80px; height: 30px; background-color: #41a863">
+					<input type="reset" value="重置" style="width: 80px; height: 30px; background-color: #41a863">
+				</td>  
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
